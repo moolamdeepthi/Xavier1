@@ -91,7 +91,15 @@ public class Datadrivenactitime
 	}
 
  }
-
+public static void login() throws InterruptedException 
+ {    
+	 try{
+    driv.findElement(By.id("username")).sendKeys(username);
+    Thread.sleep(500);
+	driv.findElement(By.cssSelector("input[name='pwd']")).sendKeys(password);
+	Thread.sleep(500);
+	driv.findElement(By.id("loginButton")).click();
+	Thread.sleep(500);
  public static void getTitle(int i)
  {
  	try{
