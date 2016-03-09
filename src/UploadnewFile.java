@@ -61,7 +61,8 @@
 			
 		}
 			       System.out.println("File uploaded sucessfully");
-			      
+			      System.out.println("File uploaded sucessfully");
+			      System.out.println("two times printed");
 			       System.out.println("uploaded sucessfully");   // new line//
 			       System.out.println("completed");  // new added line//
 	}
