@@ -40,7 +40,7 @@ public class Googleperformance
 		driv.findElement(By.linkText("Images")).click();
 		driv.navigate().back();
     }
-	
+	//---------added
 	@Test(priority=3)
 	public void clickSignin()
 	{
